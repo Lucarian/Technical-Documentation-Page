@@ -1,0 +1,38 @@
+
+header {
+    font-size: 25px;
+}
+
+nav header {
+    text-align: center;
+    margin-bottom: 7px;
+    font-weight: 600;
+    word-break: break-word;
+}
+
+// --------------------------------------------------------
+
+.navi {
+    background-color: rgb(211, 241, 151);
+}
+
+nav li {
+    border-bottom: 1px solid;
+}
+
+nav li:last-child {
+    border-bottom: none;
+}
+
+a {
+    color: black;
+    font-size: 18px;
+}
+
+.fixed-top {
+    bottom: 0px;
+}
+
+.size {
+    width: 320px;
+}

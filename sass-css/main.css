@@ -1,0 +1,77 @@
+header {
+  font-size: 25px;
+}
+
+nav header {
+  text-align: center;
+  margin-bottom: 7px;
+  font-weight: 600;
+  word-break: break-word;
+}
+
+.navi {
+  background-color: #d3f197;
+}
+
+nav li {
+  border-bottom: 1px solid;
+}
+
+nav li:last-child {
+  border-bottom: none;
+}
+
+a {
+  color: black;
+  font-size: 18px;
+}
+
+.fixed-top {
+  bottom: 0px;
+}
+
+.size {
+  width: 320px;
+}
+
+section h5:nth-child(2) {
+  margin-top: 10px;
+}
+
+.jumbotron {
+  background-color: rgba(204, 232, 248, 0.397);
+}
+
+p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+code {
+  font-size: 17px;
+}
+
+.three-section-headers {
+  margin-bottom: 10px;
+}
+
+body {
+  padding-left: 320px;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-left: 0px;
+    padding-top: 294px;
+  }
+
+  .size {
+    width: 100%;
+  }
+
+  .fixed-top {
+    height: 330px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
